@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+
+p {
+    padding-bottom: 10%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid {
+    padding:0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.logo {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+#navigation-bar {
+  background-color: #1e2022;
+  padding: 5% 8.5% 0;
+  font-size: 1.2rem;
+}
+/* Art Pieces */
+.artpiece {
+  width: 100%;
+}
+.artpiece-text {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2;
+}
+.artpiece-row {
+  padding-bottom: 3%;
+}
+
+#artpieces {
+  padding: 7% 10%;
+  background-color: #1e2022;
+  color: #c9d6df;
+}
+
+@media (max-width: 1028px) {
+  .artpiece {
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto 2%;
+  }
+  .artpiece-text {
+    text-align: center;
+  }
+
+}
