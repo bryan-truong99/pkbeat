@@ -18,7 +18,6 @@ h1 {
 
 /* Navigation Bar */
 .logo {
-  color: #fff;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -26,22 +25,45 @@ h1 {
   padding: 0 20px;
 }
 #navigation-bar {
-  background-color: #1e2022;
-  padding: 5% 8.5% 0;
+  color: #1e2022;
+  background-color: #f0f5f9;
+  padding: 2% 8.5% 0;
   font-size: 1.2rem;
+}
+/* Introduction */
+.welcome {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+#introduction {
+  padding: 20% 10% 25%;
+  background-color: #f0f5f9;
+
 }
 /* Art Pieces */
 .artpiece {
   width: 100%;
 }
+
+.artpiece-heading {
+  font-size: 2rem;
+}
+.artpiece-row {
+  padding-bottom: 3%;
+}
+
+.artpiece-title {
+  padding-bottom:5%;
+  font-size: 3rem;
+}
+
 .artpiece-text {
   text-align: left;
   font-size: 1rem;
   line-height: 2;
 }
-.artpiece-row {
-  padding-bottom: 3%;
-}
+
 
 #artpieces {
   padding: 7% 10%;
