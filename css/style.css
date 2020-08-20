@@ -31,13 +31,18 @@ h1 {
   font-size: 1.2rem;
 }
 /* Introduction */
+.dj {
+  display: block;
+  margin: 0 auto;
+}
+
 .welcome {
   font-size: 4.5rem;
   text-align: center;
 }
 
 #introduction {
-  padding: 20% 10% 25%;
+  padding: 20% 10%;
   background-color: #f0f5f9;
 
 }
