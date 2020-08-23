@@ -11,6 +11,10 @@ h1 {
   font-family: 'Quicksand', sans-serif;
 }
 
+hr {
+  border-radius: 100
+}
+
 .container-fluid {
     padding:0;
     text-align: center;
@@ -54,6 +58,11 @@ h1 {
 .artpiece-heading {
   font-size: 2rem;
 }
+
+.artpiece-item {
+  padding: 0 10% 7%;
+}
+
 .artpiece-row {
   padding-bottom: 3%;
 }
@@ -61,16 +70,13 @@ h1 {
 .artpiece-title {
   padding: 3% 10%;
   font-size: 3rem;
+  color: #f0f5f9;
 }
 
 .artpiece-text {
   text-align: left;
   font-size: 1rem;
   line-height: 2;
-}
-
-.carousel-item {
-  padding: 0 10% 7%;
 }
 
 #artpieces {
@@ -97,4 +103,29 @@ h1 {
 #seal-section {
   background-color: #f0f5f9;
   padding: 20% 10%;
+}
+
+/* Shop */
+.merch {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#shop {
+  background-color: #1e2022;
+  color: #f0f5f9;
+  text-align: left;
+  padding: 0% 2% 10%;
+}
+
+/* Contact */
+.icon {
+  margin: 20px 10px;
+}
+#contact {
+  background-color: #1e2022;
+  color: #f0f5f9;
+  padding-top: 10%
 }
