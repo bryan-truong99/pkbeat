@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    background-color: #f0f5f9;
+    color: #1e2022;
 }
 
 p {
@@ -24,33 +26,24 @@ hr {
 
 /* Navigation Bar */
 .logo {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lexend Tera', sans-serif;
 }
 
 .nav-item {
   padding: 0 20px;
 }
+
 #navigation-bar {
-  color: #1e2022;
-  background-color: #f0f5f9;
   padding: 2% 8.5% 0;
-  font-size: 1.2rem;
+  font-size: .9rem;
+  font-family: 'Raleway', sans-serif;
 }
 /* Introduction */
-.dj {
-  display: block;
-  margin: 0 auto;
-}
-
-.welcome {
-  font-size: 4.5rem;
-  text-align: center;
+.banner {
+  width:100%;
 }
 
 #introduction {
-  padding: 20% 10%;
-  background-color: #f0f5f9;
-
 }
 /* Art Pieces */
 .artpiece {
@@ -72,7 +65,6 @@ hr {
 .artpiece-title {
   padding: 3% 10%;
   font-size: 3rem;
-  color: #f0f5f9;
 }
 
 .artpiece-text {
@@ -82,8 +74,6 @@ hr {
 }
 
 #artpieces {
-  background-color: #1e2022;
-  color: #c9d6df;
 }
 
 @media (max-width: 1028px) {
@@ -103,7 +93,6 @@ hr {
 }
 
 #seal-section {
-  background-color: #f0f5f9;
   padding: 20% 10%;
 }
 
@@ -116,8 +105,6 @@ hr {
 }
 
 #shop {
-  background-color: #1e2022;
-  color: #f0f5f9;
   text-align: left;
   padding: 0% 2% 10%;
 }
@@ -128,7 +115,5 @@ hr {
 }
 #contact {
   text-align: center;
-  background-color: #1e2022;
-  color: #f0f5f9;
   padding: 2%;
 }
