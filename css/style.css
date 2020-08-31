@@ -2,15 +2,15 @@ body {
     text-align: center;
     background-color: #f0f5f9;
     color: #1e2022;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
-    padding-bottom: 10%;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-  font-family: 'Quicksand', sans-serif;
+h5 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
@@ -44,6 +44,12 @@ hr {
 }
 
 #introduction {
+}
+
+/* Merch */
+
+#merch {
+  padding: 0 10%;
 }
 /* Art Pieces */
 .artpiece {
