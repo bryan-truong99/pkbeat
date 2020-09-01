@@ -51,9 +51,15 @@ hr {
 }
 
 /* Merch */
+.merch-title {
+  font-size: 1.5rem;  
+}
 
+.merch-card {
+  margin-top: 10px;
+}
 #merch {
-  padding: 0 10%;
+  padding: 2% 10% 0;
 }
 /* Art Pieces */
 .artpiece {
